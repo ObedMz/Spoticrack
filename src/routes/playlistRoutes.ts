@@ -1,9 +1,7 @@
 import express from 'express';
 import {searchPlaylist} from '../controllers/playlistController';
-import {validateQuery, ytmusic} from '../middlewares/middlewares'
-
 const router = express.Router();
 
-router.get('/search/:q', validateQuery,ytmusic,searchPlaylist)
+router.get('/search/:id',searchPlaylist)
 
 export default router;
