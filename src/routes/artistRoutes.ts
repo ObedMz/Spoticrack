@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get('/search/:id',searchArtist)
 router.get('/:id',getArtistInfoById)
-router.get('/audio/:id',getSongArtistId)
-router.get('/lyrics/:id',getAlbumsArtistId)
+router.get('/songs/:id',getSongArtistId)
+router.get('/albums/:id',getAlbumsArtistId)
 
 export default router;
