@@ -1,0 +1,11 @@
+# Dependencias de Node.js
+node_modules/
+
+# Archivos de compilación de TypeScript
+dist/
+
+# Archivo de configuración de Visual Studio Code
+.vscode/
+
+# Archivos de configuración de TypeScript
+tsconfig.json
